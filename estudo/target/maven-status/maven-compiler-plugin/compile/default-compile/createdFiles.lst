@@ -1,2 +1,5 @@
 io/murilo/junit/App.class
+io/murilo/junit/junit/MoneyTransactionService.class
+io/murilo/junit/junit/NotEnoughMoneyException.class
 io/murilo/junit/junit/Calculator.class
+io/murilo/junit/junit/Account.class

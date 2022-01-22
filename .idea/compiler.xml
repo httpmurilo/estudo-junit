@@ -9,8 +9,13 @@
         <module name="estudo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="estudo" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="estudo" target="10" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="estudo" options="--add-modules java.base" />
+    </option>
   </component>
 </project>
